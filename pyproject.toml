@@ -6,7 +6,7 @@ build-backend = "poetry.masonry.api"
 name = "libsWin32"
 version = "0.0.1"
 authors = []
-description = ""
+description = "https://code.ill.fr/scientific-software/crysfml/-/jobs/40802/artifacts/download"
 packages = [ { include = "libsWin32" } ]
 
 [tool.poetry.dependencies]
