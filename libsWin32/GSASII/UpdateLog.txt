@@ -1,0 +1,97 @@
+Running bootstrap from C:\ProgramData\gsas2full\GSASII at 2020-11-05 23:55:41.835448
+	Id: $Id: bootstrap.py 4376 2020-03-19 21:27:06Z toby $
+**********************************************************************
+Preloading matplotlib to build fonts...
+Checking python packages...
+
+Checking for subversion...
+ found svn image: C:\ProgramData\gsas2full\Library\bin\svn.exe
+Ready to bootstrap GSAS-II from repository
+	https://subversion.xray.aps.anl.gov/pyGSAS/
+to C:\ProgramData\gsas2full\GSASII
+Enter your proxy address [none needed]: Restored 'C:\ProgramData\gsas2full\GSASII\AllBinaries'
+U    C:\ProgramData\gsas2full\GSASII\GSASIIobj.py
+U    C:\ProgramData\gsas2full\GSASII\GSASIIstrMath.py
+U    C:\ProgramData\gsas2full\GSASII\GSASIIimage.py
+U    C:\ProgramData\gsas2full\GSASII\GSASIIlattice.py
+U    C:\ProgramData\gsas2full\GSASII\GSASIIscriptable.py
+U    C:\ProgramData\gsas2full\GSASII\GSASIImath.py
+U    C:\ProgramData\gsas2full\GSASII\defaultIparms.py
+U    C:\ProgramData\gsas2full\GSASII\ElementTable.py
+U    C:\ProgramData\gsas2full\GSASII\help\Tutorials.html
+U    C:\ProgramData\gsas2full\GSASII\help\gsasII.html
+U    C:\ProgramData\gsas2full\GSASII\GSASIIfiles.py
+U    C:\ProgramData\gsas2full\GSASII\GSASIIctrlGUI.py
+U    C:\ProgramData\gsas2full\GSASII\GSASIIdataGUI.py
+U    C:\ProgramData\gsas2full\GSASII\GSASIIElem.py
+U    C:\ProgramData\gsas2full\GSASII\GSASIIexprGUI.py
+U    C:\ProgramData\gsas2full\GSASII\exports\G2export_csv.py
+U    C:\ProgramData\gsas2full\GSASII\exports\G2export_CIF.py
+U    C:\ProgramData\gsas2full\GSASII\exports\G2export_PDB.py
+U    C:\ProgramData\gsas2full\GSASII\exports\G2export_pwdr.py
+U    C:\ProgramData\gsas2full\GSASII\exports\G2export_examples.py
+U    C:\ProgramData\gsas2full\GSASII\GSASIIstrMain.py
+U    C:\ProgramData\gsas2full\GSASII\GSASIIconstrGUI.py
+U    C:\ProgramData\gsas2full\GSASII\GSASIIplot.py
+U    C:\ProgramData\gsas2full\GSASII\config_example.py
+U    C:\ProgramData\gsas2full\GSASII\GSASIIimgGUI.py
+U    C:\ProgramData\gsas2full\GSASII\GSASIIpath.py
+U    C:\ProgramData\gsas2full\GSASII\GSASIIpwdGUI.py
+U    C:\ProgramData\gsas2full\GSASII\GSASIIstrIO.py
+U    C:\ProgramData\gsas2full\GSASII\imports\G2phase.py
+U    C:\ProgramData\gsas2full\GSASII\imports\G2pdf_gr.py
+U    C:\ProgramData\gsas2full\GSASII\imports\G2pwd_CIF.py
+U    C:\ProgramData\gsas2full\GSASII\imports\G2sfact_CIF.py
+U    C:\ProgramData\gsas2full\GSASII\imports\G2phase_CIF.py
+U    C:\ProgramData\gsas2full\GSASII\imports\G2img_1TIF.py
+U    C:\ProgramData\gsas2full\GSASII\imports\G2phase_GPX.py
+U    C:\ProgramData\gsas2full\GSASII\imports\G2img_CBF.py
+A    C:\ProgramData\gsas2full\GSASII\imports\G2phase_xyz.py
+ U   C:\ProgramData\gsas2full\GSASII\imports
+U    C:\ProgramData\gsas2full\GSASII\GSASIIindex.py
+U    C:\ProgramData\gsas2full\GSASII\GSASIImpsubs.py
+U    C:\ProgramData\gsas2full\GSASII\testDeriv.py
+U    C:\ProgramData\gsas2full\GSASII\atmdata.py
+U    C:\ProgramData\gsas2full\GSASII\GSASIIpy3.py
+U    C:\ProgramData\gsas2full\GSASII\GSASIIfpaGUI.py
+U    C:\ProgramData\gsas2full\GSASII\GSASIIIntPDFtool.py
+U    C:\ProgramData\gsas2full\GSASII\GSASIIddataGUI.py
+U    C:\ProgramData\gsas2full\GSASII\GSASIIspc.py
+U    C:\ProgramData\gsas2full\GSASII\GSASIIpwd.py
+U    C:\ProgramData\gsas2full\GSASII\GSASIIphsGUI.py
+U    C:\ProgramData\gsas2full\GSASII\GSASIIrestrGUI.py
+U    C:\ProgramData\gsas2full\GSASII\NIST_profile\atan_windowed_FP_profile.py
+U    C:\ProgramData\gsas2full\GSASII\GSASIIIO.py
+ U   C:\ProgramData\gsas2full\GSASII
+Checked out revision 4650.
+
+***************************************************************************
+Now preparing to install GSAS-II
+svn load command:  C:\ProgramData\gsas2full\Library\bin\svn.exe co https://subversion.xray.aps.anl.gov/pyGSAS/trunk/ C:\ProgramData\gsas2full\GSASII --non-interactive --trust-server-cert
+
+subversion output:
+subversion returned an error:
+None
+svn: E720003: Unable to create pristine install stream
+svn: E720003: The system cannot find the path specified.  
+
+Retrying after a cleanup...
+svn load command:  C:\ProgramData\gsas2full\Library\bin\svn.exe co https://subversion.xray.aps.anl.gov/pyGSAS/trunk/ C:\ProgramData\gsas2full\GSASII --non-interactive --trust-server-cert
+
+subversion output:
+
+***************************************************************************
+import of GSASIIpath completed
+Running svn command:
+  C:\ProgramData\gsas2full\Library\bin\svn.exe list https://subversion.xray.aps.anl.gov/pyGSAS//Binaries/ --non-interactive --trust-server-cert 
+FYI: The current numpy version, 1.18.1, is newer than the newest dist version 1.15
+Loading files to C:\ProgramData\gsas2full\GSASII\bindist\
+  from https://subversion.xray.aps.anl.gov/pyGSAS//Binaries/win_64_p3.7_n1.15/
+
+svn command:  C:\ProgramData\gsas2full\Library\bin\svn.exe switch https://subversion.xray.aps.anl.gov/pyGSAS//Binaries/win_64_p3.7_n1.15/ C:\ProgramData\gsas2full\GSASII\bindist\ --non-interactive --trust-server-cert --accept theirs-conflict --force -rHEAD --ignore-ancestry 
+
+=== Output from svn switch===========================================
+At revision 4650.
+======================================================================
+
+Successfully tested compiled routines

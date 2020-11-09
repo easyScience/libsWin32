@@ -1,0 +1,32 @@
+Running bootstrap from C:\ProgramData\gsas2full\GSASII at 2020-11-05 23:55:24.625311
+	Id: $Id: bootstrap.py 4376 2020-03-19 21:27:06Z toby $
+**********************************************************************
+Preloading matplotlib to build fonts...
+Checking python packages...
+Ready to bootstrap GSAS-II from repository
+	https://subversion.xray.aps.anl.gov/pyGSAS/
+to C:\ProgramData\gsas2full\GSASII
+import of GSASIIpath completed
+Running svn command:
+  C:\ProgramData\gsas2full\Library\bin\svn.exe list https://subversion.xray.aps.anl.gov/pyGSAS//Binaries/ --non-interactive --trust-server-cert 
+FYI: The current numpy version, 1.18.1, is newer than the newest dist version 1.15
+Loading files to C:\ProgramData\gsas2full\GSASII\bindist\
+  from https://subversion.xray.aps.anl.gov/pyGSAS//Binaries/win_64_p3.7_n1.15/
+=== Output from svn switch===========================================
+At revision 4650.
+======================================================================
+
+Successfully tested compiled routines
+Byte-compiling all .py files...
+done
+Python installed at C:\ProgramData\gsas2full\python.exe
+GSAS-II installed at C:\ProgramData\gsas2full\GSASII
+Looking for C:\ProgramData\gsas2full\Scripts\activate
+adding activate to .bat file (call C:\ProgramData\gsas2full\Scripts\activate
+)
+
+Created GSAS-II batch file RunGSASII.bat in C:\ProgramData\gsas2full\GSASII
+old GPX assignment C:\Users\asazonov\gsas2full\GSASII\RunGSASII.bat not found; registry entry will be made for new one
+Assigned icon and batch file to .gpx files in registery
+GSAS-II shortcut exists!
+Created shortcut to start GSAS-II on desktop
